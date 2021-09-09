@@ -10,7 +10,7 @@ const { Step } = Steps;
 export default function App() {
   return (
     <div className="App">
-      <h1>我说了无脑多，你说钢铁煤炭大涨了不</h1>
+      <h1>this is a test !!</h1>
       <hr />
 
       <Steps direction="vertical">
