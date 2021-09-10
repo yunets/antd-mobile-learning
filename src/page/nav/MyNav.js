@@ -40,7 +40,21 @@ export class MyNav extends React.Component {
       <div>
         <Table dataSource={this.dataSource} columns={this.columns} />;
         <legend>this is myhao1234</legend>
+        <Form />
       </div>
     );
   }
+}
+
+function Form() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert("You clicked submit.");
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <button type="submit">Submit</button>
+    </form>
+  );
 }
