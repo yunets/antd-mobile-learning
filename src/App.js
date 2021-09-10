@@ -1,5 +1,3 @@
-import React from "react";
-
 import { MyNav } from "./page/nav/MyNav";
 
 export default function App() {
