@@ -48,13 +48,17 @@ export class MyNav extends React.Component {
 
 function Form() {
   function handleSubmit(e) {
-    e.preventDefault();
-    alert("You clicked submit.");
+    const url = "http://www.baidu.com";
+    window.open(url, "_blank");
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <button type="submit">Submit</button>
-    </form>
+    <div onSubmit={handleSubmit}>
+      <table>
+        <tr>
+          <td>123</td>
+        </tr>
+      </table>
+    </div>
   );
 }
