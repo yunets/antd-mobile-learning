@@ -39,7 +39,7 @@ export class MyNav extends React.Component {
     return (
       <div>
         <Table dataSource={this.dataSource} columns={this.columns} />;
-        <legend>this is myhao123</legend>
+        <legend>this is myhao1234</legend>
       </div>
     );
   }
