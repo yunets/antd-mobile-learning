@@ -1,3 +1,4 @@
+import { BackTop } from "antd";
 import { ProjectHistory } from "./page/info/ProjectHistory";
 import { School } from "./page/info/School";
 import { UserInfo } from "./page/info/UserInfo";
@@ -9,6 +10,7 @@ export default function App() {
       <UserInfo />
       <School />
       <ProjectHistory />
+      <BackTop />
     </div>
   );
 }
