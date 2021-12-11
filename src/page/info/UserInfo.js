@@ -8,36 +8,41 @@ export class UserInfo extends React.Component {
         <legend>简介</legend>
         <Descriptions title="User Info" bordered>
           <Descriptions.Item label="姓名">刘云生</Descriptions.Item>
-          <Descriptions.Item label="Billing Mode">Prepaid</Descriptions.Item>
-          <Descriptions.Item label="Automatic Renewal">YES</Descriptions.Item>
-          <Descriptions.Item label="Order time">
-            2018-04-24 18:00:00
+          <Descriptions.Item label="毕业院校">青岛科技大学</Descriptions.Item>
+          <Descriptions.Item label="学历">硕士研究生</Descriptions.Item>
+          <Descriptions.Item label="英语等级">六级</Descriptions.Item>
+
+          <Descriptions.Item label="电话（微信）">
+            15063036525
           </Descriptions.Item>
-          <Descriptions.Item label="Usage Time" span={2}>
-            2019-04-24 18:00:00
+          <Descriptions.Item label="邮箱">578888218@qq.com</Descriptions.Item>
+          <Descriptions.Item label="目前公司" span={2}>
+            中科曙光
           </Descriptions.Item>
-          <Descriptions.Item label="Status" span={3}>
-            <Badge status="processing" text="Running" />
+          <Descriptions.Item label="工作状态" span={3}>
+            <Badge status="processing" text="在职" />
           </Descriptions.Item>
-          <Descriptions.Item label="Negotiated Amount">
-            $80.00
+
+          <Descriptions.Item label="技术博客" span={3}>
+            <div>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://liuyunshengsir.blog.csdn.net/"
+              >
+                https://liuyunshengsir.blog.csdn.net/
+              </a>
+            </div>
           </Descriptions.Item>
-          <Descriptions.Item label="Discount">$20.00</Descriptions.Item>
-          <Descriptions.Item label="Official Receipts">
-            $60.00
-          </Descriptions.Item>
-          <Descriptions.Item label="Config Info">
-            Data disk type: MongoDB
+
+          <Descriptions.Item label="个人评价">
+            5年以上工作经验，全栈工程师，意向岗位高级开发工程师、技术架构师、技术经理。
             <br />
-            Database version: 3.4
+            符合程序员的特征属于内敛、灵活、执着，皮实，责任心强。
             <br />
-            Package: dds.mongo.mid
+            善于学习和不断总结，喜欢具有挑战性的工作，技术博客访问量50万++。
             <br />
-            Storage space: 10 GB
             <br />
-            Replication factor: 3
-            <br />
-            Region: East China 1<br />
           </Descriptions.Item>
         </Descriptions>
       </div>
