@@ -5,8 +5,8 @@ export class UserInfo extends React.Component {
   render() {
     return (
       <div>
-        <legend>简介</legend>
-        <Descriptions title="User Info" bordered>
+        <legend></legend>
+        <Descriptions title="基本信息" bordered>
           <Descriptions.Item label="姓名">刘云生</Descriptions.Item>
           <Descriptions.Item label="院校专业">
             青岛科技大学(软件工程)
