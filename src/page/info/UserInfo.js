@@ -8,7 +8,9 @@ export class UserInfo extends React.Component {
         <legend>简介</legend>
         <Descriptions title="User Info" bordered>
           <Descriptions.Item label="姓名">刘云生</Descriptions.Item>
-          <Descriptions.Item label="毕业院校">青岛科技大学</Descriptions.Item>
+          <Descriptions.Item label="院校专业">
+            青岛科技大学(软件工程)
+          </Descriptions.Item>
           <Descriptions.Item label="学历">硕士研究生</Descriptions.Item>
           <Descriptions.Item label="英语等级">六级</Descriptions.Item>
 
