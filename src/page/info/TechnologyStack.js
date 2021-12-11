@@ -30,10 +30,14 @@ export class TechnologyStack extends React.Component {
             <Radio.Button value="top">水平显示</Radio.Button>
             <Radio.Button value="left">垂直显示</Radio.Button>
           </Radio.Group>
-          <Tabs defaultActiveKey="1" tabPosition={mode} style={{ height: 220 }}>
+          <Tabs
+            defaultActiveKey="1"
+            tabPosition={mode}
+            style={{ height: "auto" }}
+          >
             <TabPane tab={`技能总览`} key="1">
               Content of tab
-              <div>
+              <div height="1000px">
                 而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
                 故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？
                 而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
