@@ -1,64 +1,36 @@
 import React from "react";
-import { Table } from "antd";
+import { Button } from "antd";
 
 export class MyNav extends React.Component {
-  dataSource = [
-    {
-      key: "1",
-      name: "胡彦斌",
-      age: 32,
-      address: "西湖区湖底公园1号"
-    },
-    {
-      key: "2",
-      name: "胡彦祖",
-      age: 42,
-      address: "西湖区湖底公园1号"
-    }
-  ];
+  constructor(props) {
+    super(props);
+    this.state = { pass: false };
+  }
 
-  columns = [
-    {
-      title: "姓名",
-      dataIndex: "name",
-      key: "name"
-    },
-    {
-      title: "年龄",
-      dataIndex: "age",
-      key: "age"
-    },
-    {
-      title: "住址",
-      dataIndex: "address",
-      key: "address"
+  componentDidMount() {
+    this.test("test");
+  }
+
+  test = (e) => {
+    let a = prompt("test", "test");
+    if (a === "test1") {
+      this.setState({
+        pass: true
+      });
     }
-  ];
+  };
 
   render() {
     return (
       <div>
-        <Table dataSource={this.dataSource} columns={this.columns} />;
-        <legend>this is myhao1234</legend>
-        <Form />
+        {this.state.pass ? (
+          <div>pass 后的内容</div>
+        ) : (
+          <Button type="primary" onClick={() => this.test("2222")}>
+            Button
+          </Button>
+        )}
       </div>
     );
   }
-}
-
-function Form() {
-  function handleSubmit(e) {
-    const url = "http://www.baidu.com";
-    window.open(url, "_blank");
-  }
-
-  return (
-    <div onSubmit={handleSubmit}>
-      <table>
-        <tr>
-          <td>123</td>
-        </tr>
-      </table>
-    </div>
-  );
 }
