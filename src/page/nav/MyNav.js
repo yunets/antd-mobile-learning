@@ -26,7 +26,11 @@ export class MyNav extends React.Component {
         {this.state.pass ? (
           <div>pass 后的内容</div>
         ) : (
-          <Button type="primary" onClick={() => this.test("2222")}>
+          <Button
+            type="primary"
+            onClick={() => this.test("2222")}
+            style={{ float: "center" }}
+          >
             Button
           </Button>
         )}

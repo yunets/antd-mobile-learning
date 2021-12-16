@@ -31,10 +31,28 @@ export class TechnologyStack extends React.Component {
             <Radio.Button value="left">垂直显示</Radio.Button>
           </Radio.Group>
           <Tabs
-            defaultActiveKey="1"
+            defaultActiveKey="0"
             tabPosition={mode}
             style={{ height: "auto" }}
           >
+            <TabPane tab={`技能广度`} key="0">
+              <div height="1000px">
+                1.熟练使用常用的开发语言java，js，react和相关的框架springboot，mybatis，Springcloud，antd等。
+                <br />
+                2.熟悉数据库mysql、postgres、sqlserver、Oracle的相关使用和原理。
+                <br />
+                3.熟悉消息中间件rabbitmq和kafka的使用。
+                <br />
+                4.熟悉大数据生态圈Hadoop、Yarn、Zookeeper、Hive、Spark、Elasticsearch、oozie、Nifi、flink的使用。
+                <br />
+                5.熟悉docker和容器编排引擎Kubernetes的使用和原理。
+                <br />
+                6.熟悉云计算openstack和zstack的使用。
+                <br />
+                7.熟悉软件设计的原则，有良好的的代码编写习惯。
+              </div>
+            </TabPane>
+
             <TabPane tab={`java`} key="1">
               <div height="1000px">
                 1.熟悉JVM的运行时数据区。
