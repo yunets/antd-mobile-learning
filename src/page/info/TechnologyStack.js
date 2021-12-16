@@ -20,7 +20,7 @@ export class TechnologyStack extends React.Component {
     const { mode } = this.state;
     return (
       <div>
-        <legend>技术栈</legend>
+        <legend>技术栈（正在完善）</legend>
         <div>
           <Radio.Group
             onChange={this.handleModeChange}
@@ -35,17 +35,18 @@ export class TechnologyStack extends React.Component {
             tabPosition={mode}
             style={{ height: "auto" }}
           >
-            <TabPane tab={`技能总览`} key="1">
-              Content of tab
+            <TabPane tab={`java`} key="1">
               <div height="1000px">
-                而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
-                故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？
-                而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
-                故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
-                故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
-                故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
-                故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？而世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉，
-                故非有志者不能至也。尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？
+                1.熟悉JVM的运行时数据区。
+                <br />
+                2.熟悉垃圾回收算法，垃圾回收器，内存分配及回收策略。
+                <br />
+                3.熟悉java内存模型、线程的生命周期，线程池，多线程异步调用。
+                <br />
+                4.熟悉java中各种线程安全的锁机制AQS，死锁。
+                <br />
+                5.熟悉线上排查问题的常用方式。
+                <br />
               </div>
             </TabPane>
             <TabPane tab={`Kubernetes`} key="2">

@@ -46,7 +46,7 @@ export class School extends React.Component {
     return (
       <div>
         <legend>教育背景</legend>
-        <Table dataSource={this.dataSource} columns={this.columns} />;
+        <Table dataSource={this.dataSource} columns={this.columns} />
       </div>
     );
   }

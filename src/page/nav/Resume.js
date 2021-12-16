@@ -9,17 +9,16 @@ import { ProjectHistory } from "../info/ProjectHistory";
 export class Resume extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { visibleResume: true };
+    this.state = { visibleResume: false };
   }
 
   componentDidMount() {
-    this.test();
+    this.getDetail();
   }
 
-  test = () => {
-    let a = null;
-    //prompt("test", "test");
-    if (a === "test1") {
+  getDetail = () => {
+    let a = prompt("请输入查看简历密码", "");
+    if (a === "6525") {
       this.setState({
         visibleResume: true
       });
@@ -31,7 +30,6 @@ export class Resume extends React.Component {
       <div>
         {this.state.visibleResume ? (
           <div>
-            pass 后的内容
             <UserInfo />
             <School />
             <TechnologyStack />
@@ -39,8 +37,8 @@ export class Resume extends React.Component {
             <BackTop />
           </div>
         ) : (
-          <Button type="primary" onClick={() => this.test()}>
-            输入查看密码
+          <Button type="primary" onClick={() => this.getDetail()}>
+            输入查看密码：联系作者索要密码
           </Button>
         )}
       </div>
