@@ -11,7 +11,7 @@ export class CompanyHistory extends React.Component {
     },
     {
       key: "1",
-      school: "青岛励图智能科技信息有限公司",
+      school: "青岛励图高科信息有限公司",
       qualifications: "全栈工程师、项目经理",
       learningTime: "2015-2018"
     }
