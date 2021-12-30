@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, Radio } from "antd";
+import { Tabs, Radio, Tag } from "antd";
 
 const { TabPane } = Tabs;
 
@@ -64,6 +64,13 @@ export class TechnologyStack extends React.Component {
                 4.熟悉java中各种线程安全的锁机制AQS，死锁。
                 <br />
                 5.熟悉线上排查问题的常用方式。
+                <br />
+                <br />
+                <Tag color="#87d068">《深入理解Java 虚拟机》</Tag>
+                <Tag color="magenta">《Java性能权威指南》</Tag>
+                <Tag color="magenta">《Java并发编程实践》</Tag>
+                <Tag color="#87d068">《Java并发编程的艺术》</Tag>
+                <Tag color="#87d068">《Netty权威指南》</Tag>
                 <br />
               </div>
             </TabPane>
