@@ -66,6 +66,8 @@ export class TechnologyStack extends React.Component {
                 5.熟悉线上排查问题的常用方式。
                 <br />
                 <br />
+                <Tag color="#87d068">《代码整洁之道》</Tag>
+                <Tag color="#87d068">《重构：改善既有代码的设计》</Tag>
                 <Tag color="#87d068">《深入理解Java 虚拟机》</Tag>
                 <Tag color="magenta">《Java性能权威指南》</Tag>
                 <Tag color="magenta">《Java并发编程实践》</Tag>
