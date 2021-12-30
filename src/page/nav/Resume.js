@@ -5,6 +5,7 @@ import { UserInfo } from "../info/UserInfo";
 import { School } from "../info/School";
 import { TechnologyStack } from "../info/TechnologyStack";
 import { ProjectHistory } from "../info/ProjectHistory";
+import { CompanyHistory } from "../info/CompanyHistory";
 
 export class Resume extends React.Component {
   constructor(props) {
@@ -35,6 +36,7 @@ export class Resume extends React.Component {
           <div>
             <UserInfo />
             <School />
+            <CompanyHistory />
             <TechnologyStack />
             <ProjectHistory />
             <BackTop />
