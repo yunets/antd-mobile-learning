@@ -94,6 +94,10 @@ export class TechnologyStack extends React.Component {
                 <br />
                 8.熟练使用CICD相关的工具，进行流水线提高研发效率。
                 <br />
+                <Tag color="#87d068">《kubernetes in action中文版》</Tag>
+                <Tag color="#87d068">《kubernetes 实战》</Tag>
+                <Tag color="#87d068">《kubernetes 权威指南》</Tag>
+                <Tag color="#87d068">《kubernetes 进阶实战》</Tag>
               </div>
             </TabPane>
           </Tabs>
