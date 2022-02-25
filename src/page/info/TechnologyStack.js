@@ -100,6 +100,21 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《kubernetes 进阶实战》</Tag>
               </div>
             </TabPane>
+            <TabPane tab={`Mysql`} key="3">
+              <div>
+                1.熟悉主键索引、非主键索引、联合索引、前缀索引的原理，防止索引失效及慢查询问题排查解决索引优化。
+                <br />
+                2.熟悉mysql的事务原理、隔离级别及锁机制。
+                <br />
+                3.熟悉redo log、binlog、undolog 、两阶段提交等工作机制。
+                <br />
+                4.熟悉mysql常用的高可用架构。
+                <br />
+                <br />
+                <Tag color="#87d068">《高性能mysql》</Tag>
+                <Tag color="#87d068">《深入mysql实战》</Tag>
+              </div>
+            </TabPane>
           </Tabs>
         </div>
       </div>
