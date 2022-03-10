@@ -8,14 +8,14 @@ export class School extends React.Component {
       school: "青岛科技大学",
       qualifications: "本科",
       major: "信息工程",
-      learningTime: "2011-2015"
+      learningTime: "2011.8.28-2015.7.2"
     },
     {
       key: "1",
       school: "青岛科技大学",
       qualifications: "硕士",
       major: "软件工程",
-      learningTime: "2015-2018"
+      learningTime: "2015.9.5-2018.6.26"
     }
   ];
 

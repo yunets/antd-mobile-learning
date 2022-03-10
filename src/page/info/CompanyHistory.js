@@ -7,13 +7,19 @@ export class CompanyHistory extends React.Component {
       key: "1",
       school: "中科曙光",
       qualifications: "大数据研发工程师、云计算研发工程师",
-      learningTime: "2018年12月-至今"
+      learningTime: "2018年7月-至今"
     },
     {
-      key: "1",
-      school: "青岛励图高科信息有限公司",
+      key: "2",
+      school: "中科曙光（实习）",
+      qualifications: "大数据研发工程师",
+      learningTime: "2018年1月-2018年6月"
+    },
+    {
+      key: "3",
+      school: "青岛励图高科信息有限公司（实习）",
       qualifications: "全栈工程师、项目经理",
-      learningTime: "2015年4月-2018年12月"
+      learningTime: "2015年4月-2017年12月"
     }
   ];
 
