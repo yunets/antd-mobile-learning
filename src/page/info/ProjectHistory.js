@@ -28,7 +28,7 @@ export class ProjectHistory extends React.Component {
               title={
                 <a href="https://ant.design">曙光云产品（2020.08-至今）</a>
               }
-              description=""
+              description="SpringBoot、springcloud、Kubernetes、Docker、Openstack、Vue、React"
             />
             <div>
               <List
