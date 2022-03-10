@@ -18,8 +18,7 @@ export class Resume extends React.Component {
   }
 
   getDetail = () => {
-    let a = "6525";
-    prompt("请输入查看简历密码", "");
+    let a = prompt("请输入查看简历密码", "");
     if (a === "6525") {
       this.setState({
         visibleResume: true
