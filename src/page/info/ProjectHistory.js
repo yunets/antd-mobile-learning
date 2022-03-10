@@ -25,9 +25,7 @@ export class ProjectHistory extends React.Component {
           <List.Item>
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-              title={
-                <a href="https://ant.design">曙光云产品（2020.08-至今）</a>
-              }
+              title={<a href>曙光云产品（2020.08-至今）</a>}
               description="SpringBoot、springcloud、Kubernetes、Docker、Openstack、Vue、React"
             />
             <div>
@@ -66,9 +64,7 @@ export class ProjectHistory extends React.Component {
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title={
-                <a href="https://ant.design">
-                  重庆XX大学智慧校园大数据项目（2020.08-2021.04）
-                </a>
+                <a href>重庆XX大学智慧校园大数据项目（2020.08-2021.04）</a>
               }
               description="Hadoop、Yarn、Zookeeper、Hive、Spark、Elasticsearch、oozie、Nifi、SpringBoot、React、Antd"
             />
@@ -102,9 +98,7 @@ export class ProjectHistory extends React.Component {
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title={
-                <a href="https://ant.design">
-                  青岛科技大学智慧校园大数据项目（2019.08-2019.07）
-                </a>
+                <a href>青岛XX大学智慧校园大数据项目（2019.08-2019.07）</a>
               }
               description="Hadoop、Yarn、Zookeeper、Hive、Spark、Elasticsearch、oozie、Nifi、SpringBoot、React、Antd"
             />
@@ -142,9 +136,7 @@ export class ProjectHistory extends React.Component {
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title={
-                <a href="https://ant.design">
-                  大数据与人工智能实验平台产品（2018.01-2019.07）
-                </a>
+                <a href>大数据与人工智能实验平台产品（2018.01-2019.07）</a>
               }
               description="Kubernetes、Docker、Tensorflow、Caffe、Pytorch、Hadoop、Yarn、
               Zookeeper、Hive、Spark、Elasticsearch、oozie、Nifi、SpringBoot、React、Antd"
