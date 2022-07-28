@@ -113,6 +113,11 @@ export class TechnologyStack extends React.Component {
                 <br />
                 <Tag color="#87d068">《高性能mysql》</Tag>
                 <Tag color="#87d068">《深入mysql实战》</Tag>
+                <Tag color="#87d068">《MySQL性能优化和高可用架构实践》</Tag>
+                <Tag color="#87d068">
+                  《MySQL管理之道：性能调优、高可用与监控》
+                </Tag>
+                <Tag color="#87d068">《MySQL技术内幕 InnoDB存储引擎》</Tag>
               </div>
             </TabPane>
           </Tabs>

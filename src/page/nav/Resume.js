@@ -14,7 +14,7 @@ export class Resume extends React.Component {
   }
 
   componentDidMount() {
-    this.getDetail();
+   // this.getDetail();
   }
 
   getDetail = () => {
