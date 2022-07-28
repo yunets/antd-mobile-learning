@@ -120,6 +120,45 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《MySQL技术内幕 InnoDB存储引擎》</Tag>
               </div>
             </TabPane>
+            <TabPane tab={`Postgresql`} key="4">
+              <div>
+                1.熟悉基本使用，正在深入研究中
+                <br />
+                <br />
+                <br />
+                <Tag color="#87d068">《PostgreSQL实战教程》</Tag>
+                <Tag color="#87d068">《PostgreSQL实战》</Tag>
+                <Tag color="#87d068">《PostgreSQL 数据库内核分析》</Tag>
+              </div>
+            </TabPane>
+            <TabPane tab={`Spring生态圈`} key="5">
+              <div>
+                1.汇总中
+                <br />
+                <br />
+                <br />
+                <Tag color="#87d068">《PostgreSQL实战教程》</Tag>
+                <Tag color="#87d068">《PostgreSQL实战》</Tag>
+                <Tag color="#87d068">《PostgreSQL 数据库内核分析》</Tag>
+              </div>
+            </TabPane>
+            <TabPane tab={`方法论`} key="6">
+              <div>
+                <Tag color="#87d068">《如何阅读一本书》</Tag>
+
+                <Tag color="#87d068">《系统之美》</Tag>
+                <Tag color="#87d068">《微习惯》</Tag>
+                <Tag color="#87d068">《原则》</Tag>
+                <Tag color="#87d068">《高效能人士的七个习惯》</Tag>
+                <Tag color="#87d068">《自私的基因》</Tag>
+                <Tag color="#87d068">《增长的极限》</Tag>
+              </div>
+            </TabPane>
+            <TabPane tab={`人物传记`} key="7">
+              <div>
+                <Tag color="#87d068">《硅谷钢铁侠》</Tag>
+              </div>
+            </TabPane>
           </Tabs>
         </div>
       </div>
