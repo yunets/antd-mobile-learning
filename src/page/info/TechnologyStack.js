@@ -148,10 +148,15 @@ export class TechnologyStack extends React.Component {
 
                 <Tag color="#87d068">《系统之美》</Tag>
                 <Tag color="#87d068">《微习惯》</Tag>
+                <Tag color="#87d068">《心流》</Tag>
                 <Tag color="#87d068">《原则》</Tag>
                 <Tag color="#87d068">《高效能人士的七个习惯》</Tag>
                 <Tag color="#87d068">《自私的基因》</Tag>
                 <Tag color="#87d068">《增长的极限》</Tag>
+                <Tag color="#87d068">《从0到1》</Tag>
+                <Tag color="#87d068">《熵:一种新的世界观》</Tag>
+                <Tag color="#87d068">《思考，快与慢》</Tag>
+                <Tag color="#87d068">《随机漫步的傻瓜》</Tag>
               </div>
             </TabPane>
             <TabPane tab={`人物传记`} key="7">
