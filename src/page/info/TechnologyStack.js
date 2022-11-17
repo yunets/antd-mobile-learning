@@ -168,6 +168,14 @@ export class TechnologyStack extends React.Component {
             <TabPane tab={`人物传记`} key="7">
               <div>
                 <Tag color="#87d068">《硅谷钢铁侠》</Tag>
+                <Tag color="#87d068">
+                  <a
+                    href="https://zhuanlan.zhihu.com/p/461399476"
+                    target="_blank"
+                  >
+                    《其他》
+                  </a>
+                </Tag>
               </div>
             </TabPane>
           </Tabs>
