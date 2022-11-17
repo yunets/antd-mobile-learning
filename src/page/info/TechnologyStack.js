@@ -16,6 +16,10 @@ export class TechnologyStack extends React.Component {
     this.setState({ mode });
   };
 
+  getRandomColor = () => {
+    return "#87d068";
+  };
+
   render() {
     const { mode } = this.state;
     return (
@@ -157,6 +161,8 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《熵:一种新的世界观》</Tag>
                 <Tag color="#87d068">《思考，快与慢》</Tag>
                 <Tag color="#87d068">《随机漫步的傻瓜》</Tag>
+                <Tag color="#87d068">《反脆弱》</Tag>
+                <Tag color="#87d068">《黑天鹅》</Tag>
               </div>
             </TabPane>
             <TabPane tab={`人物传记`} key="7">
