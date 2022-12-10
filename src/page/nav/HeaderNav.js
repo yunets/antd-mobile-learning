@@ -2,9 +2,31 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
 import SubMenu from "antd/lib/menu/SubMenu";
+import {
+  AppstoreOutlined,
+  MailOutlined,
+  SettingOutlined
+} from "@ant-design/icons";
 
+const items = [
+  {
+    label: "Navigation One",
+    key: "mail",
+    icon: <MailOutlined />
+  },
+  {
+    label: "Navigation Two",
+    key: "app",
+    icon: <AppstoreOutlined />
+  },
+  {
+    label: "Navigation Two",
+    key: "app2",
+    icon: <AppstoreOutlined />
+  }
+];
 const HeaderNav = () => {
-  const [current, setCurrent] = useState("tle");
+  const [current, setCurrent] = useState("mail");
   const onClick = (e) => {
     console.log("click ", e);
     setCurrent(e.key);
@@ -12,15 +34,11 @@ const HeaderNav = () => {
 
   return (
     <Menu
-      mode="horizontal"
-      theme="light"
-      selectedKeys={[current]}
       onClick={onClick}
-    >
-      <SubMenu key="tle" title="首页" label="label1"></SubMenu>
-      <SubMenu key="tle2" title="详细" label="label2"></SubMenu>
-      <SubMenu key="tle3" title="书籍" label="label4"></SubMenu>
-    </Menu>
+      selectedKeys={[current]}
+      mode="horizontal"
+      items={items}
+    />
   );
 };
 export default HeaderNav;
