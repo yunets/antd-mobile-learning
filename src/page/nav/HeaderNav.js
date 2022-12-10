@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { Menu } from "antd";
-import SubMenu from "antd/lib/menu/SubMenu";
 import {
   AppstoreOutlined,
   MailOutlined,
@@ -10,8 +8,8 @@ import {
 
 const items = [
   {
-    label: "Navigation One",
-    key: "mail",
+    label: "首页",
+    key: "home",
     icon: <MailOutlined />
   },
   {
@@ -26,9 +24,10 @@ const items = [
   }
 ];
 const HeaderNav = () => {
-  const [current, setCurrent] = useState("mail");
+  const [current, setCurrent] = useState("home");
   const onClick = (e) => {
     console.log("click ", e);
+
     setCurrent(e.key);
   };
 
