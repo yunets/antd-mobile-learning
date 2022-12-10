@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Resume } from "./page/nav/Resume";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Resume } from "./page/nav/Resume";
+import { HeaderNav } from "./page/nav/HeaderNav";
 export default function App() {
   return (
     <div className="App">
@@ -17,7 +18,7 @@ export default function App() {
         </Route>
       </Routes>
 
-      <Resume />
+      <HeaderNav />
     </div>
   );
 }
@@ -25,8 +26,7 @@ export default function App() {
 function Layout() {
   return (
     <div>
-      {/* A "layout route" is a good place to put markup you want to
-          share across all the pages on your site, like navigation. */}
+      <HeaderNav />
       <nav>
         <ul>
           <li>
