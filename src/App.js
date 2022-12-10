@@ -1,7 +1,8 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import HeaderNav from "./page/nav/HeaderNav";
 import { Resume } from "./page/nav/Resume";
-import { HeaderNav } from "./page/nav/HeaderNav";
+
 export default function App() {
   return (
     <div className="App">
@@ -17,8 +18,6 @@ export default function App() {
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
-
-      <HeaderNav />
     </div>
   );
 }
@@ -26,7 +25,6 @@ export default function App() {
 function Layout() {
   return (
     <div>
-      <HeaderNav />
       <nav>
         <ul>
           <li>
@@ -58,6 +56,7 @@ function Home() {
   return (
     <div>
       <h2>Home</h2>
+      <HeaderNav />
     </div>
   );
 }
