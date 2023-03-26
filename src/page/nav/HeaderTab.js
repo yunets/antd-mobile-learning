@@ -2,6 +2,7 @@ import React from "react";
 import { Tabs } from "antd";
 import { Resume } from "./Resume";
 import MyParticle from "../MyParticle";
+import MyHome from "./MyHome";
 export class HeaderTab extends React.Component {
   constructor(props) {
     super(props);
@@ -18,7 +19,7 @@ export class HeaderTab extends React.Component {
         <Tabs defaultActiveKey="1">
           <Tabs.TabPane tab="首页" key="1">
             <MyParticle />
-            <Resume />
+            <MyHome />
           </Tabs.TabPane>
           <Tabs.TabPane tab="介绍" key="2">
             <Resume />
