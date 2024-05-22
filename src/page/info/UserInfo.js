@@ -25,6 +25,17 @@ export class UserInfo extends React.Component {
             <Badge status="processing" text="在职" />
           </Descriptions.Item>
 
+          
+
+          <Descriptions.Item label="个人评价" span={3}>
+            6年以上工作经验，全栈工程师，意向岗位JAVA研发工程师、python研发工程师。
+            <br />
+            符合程序员的特征属于内敛、灵活、执着，皮实，责任心强。
+            <br />
+            善于学习和不断总结，喜欢具有挑战性的工作，技术博客访问量98万++。
+            <br />
+            <br />
+          </Descriptions.Item>
           <Descriptions.Item label="技术博客" span={3}>
             <div>
               <a
@@ -36,15 +47,16 @@ export class UserInfo extends React.Component {
               </a>
             </div>
           </Descriptions.Item>
-
-          <Descriptions.Item label="个人评价">
-            5年以上工作经验，全栈工程师，意向岗位高级开发工程师、技术架构师、技术经理。
-            <br />
-            符合程序员的特征属于内敛、灵活、执着，皮实，责任心强。
-            <br />
-            善于学习和不断总结，喜欢具有挑战性的工作，技术博客访问量50万++。
-            <br />
-            <br />
+          <Descriptions.Item label="在线简历" span={3}>
+            <div>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://liuyunshengsir.netlify.app/"
+              >
+                https://liuyunshengsir.netlify.app/
+              </a>
+            </div>
           </Descriptions.Item>
         </Descriptions>
       </div>

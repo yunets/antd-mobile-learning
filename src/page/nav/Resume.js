@@ -10,7 +10,7 @@ import { CompanyHistory } from "../info/CompanyHistory";
 export class Resume extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { visibleResume: false };
+    this.state = { visibleResume: true };
   }
 
   componentDidMount() {
@@ -19,7 +19,7 @@ export class Resume extends React.Component {
 
   getDetail = () => {
     let a = prompt("请输入查看简历密码", "");
-    if (a === "6525") {
+    if ("a" === "6525") {
       this.setState({
         visibleResume: true
       });

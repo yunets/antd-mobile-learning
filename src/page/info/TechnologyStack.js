@@ -41,9 +41,9 @@ export class TechnologyStack extends React.Component {
           >
             <TabPane tab={`技能广度`} key="0">
               <div height="1000px">
-                1.熟练使用常用的开发语言java，js，react和相关的框架springboot，mybatis，Springcloud，antd等。
+                1.熟练使用常用的开发语言java，python、go、javascript，react和相关的框架springboot，mybatis，Springcloud，antd等。
                 <br />
-                2.熟悉数据库mysql、postgres、sqlserver、Oracle的相关使用和原理。
+                2.熟悉数据库mysql、postgresql、mongodb的相关使用和原理。
                 <br />
                 3.熟悉消息中间件rabbitmq和kafka的使用。
                 <br />
@@ -126,7 +126,7 @@ export class TechnologyStack extends React.Component {
             </TabPane>
             <TabPane tab={`Postgresql`} key="4">
               <div>
-                1.熟悉基本使用，正在深入研究中
+                1.待更新
                 <br />
                 <br />
                 <br />
@@ -137,13 +137,7 @@ export class TechnologyStack extends React.Component {
             </TabPane>
             <TabPane tab={`Spring生态圈`} key="5">
               <div>
-                1.汇总中
-                <br />
-                <br />
-                <br />
-                <Tag color="#87d068">《PostgreSQL实战教程》</Tag>
-                <Tag color="#87d068">《PostgreSQL实战》</Tag>
-                <Tag color="#87d068">《PostgreSQL 数据库内核分析》</Tag>
+              1.待更新
               </div>
             </TabPane>
             <TabPane tab={`方法论`} key="6">

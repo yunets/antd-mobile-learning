@@ -15,7 +15,7 @@ export class HeaderTab extends React.Component {
   render() {
     return (
       <div>
-        <Tabs defaultActiveKey="1">
+        {/* <Tabs defaultActiveKey="1">
           <Tabs.TabPane tab="首页" key="1">
             <MyParticle />
             <Resume />
@@ -26,7 +26,8 @@ export class HeaderTab extends React.Component {
           <Tabs.TabPane tab="打印" key="3">
             <Resume />
           </Tabs.TabPane>
-        </Tabs>
+        </Tabs> */}
+        <Resume />
       </div>
     );
   }

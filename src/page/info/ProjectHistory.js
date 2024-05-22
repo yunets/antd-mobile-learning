@@ -25,7 +25,7 @@ export class ProjectHistory extends React.Component {
           <List.Item>
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-              title={<a href>曙光云产品（2020.08-至今）</a>}
+              title={<a href>曙光云产品（2021.08-至今）</a>}
               description="SpringBoot、springcloud、Kubernetes、Docker、Openstack、Vue、React"
             />
             <div>
@@ -41,20 +41,27 @@ export class ProjectHistory extends React.Component {
               >
                 <List.Item>
                   <div>
-                    1.主要负责曙光云RDS后台接口开发。
+                    1.主要负责曙光云云数据库的后台接口开发。数据库对接MySQL、PostgreSQL、MongoDB、达梦、瀚高。
                     <br />
-                    2.数据库的主从方案的调研。
+                    2.微服务注册重新调研Eureka升级为nacos和配置规划。
                     <br />
-                    3.微服务注册重新调研升级和配置规划。
+                    3.集群服务模式下websocket的实现。发明专利证书《SUW10229-202210287295.X-信息同步方法、装置、计算机设备和存储介质》
                     <br />
-                    4.集群模式下websocket的实现。
+                    4.推动协助各小组从MySQL兼容PostgreSQL。
                     <br />
-                    5.推动协助全栈云各小组从Mysql兼容Postgres。
+                    5.调研实现基于prometheus监控数据库和虚拟机状态，grafana可视化展示批量生成。
                     <br />
-                    6.调研实现prometheus监控数据库状态，loki日志收集。
+                    6.协助指导所在小组同事流水线的使用及问题排查，分享普及K8S容器相关知识帮助大家提升效率。
                     <br />
-                    7.协助同事流水线的使用及问题排查。
-                    <br />
+
+
+
+
+
+
+
+
+
                   </div>
                 </List.Item>
               </List>
@@ -98,7 +105,7 @@ export class ProjectHistory extends React.Component {
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title={
-                <a href>青岛XX大学智慧校园大数据项目（2019.08-2019.07）</a>
+                <a href>青岛XX大学智慧校园大数据项目（2019.08-2020.07）</a>
               }
               description="Hadoop、Yarn、Zookeeper、Hive、Spark、Elasticsearch、oozie、Nifi、SpringBoot、React、Antd"
             />
