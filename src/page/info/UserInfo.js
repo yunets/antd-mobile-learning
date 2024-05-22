@@ -17,7 +17,7 @@ export class UserInfo extends React.Component {
           <Descriptions.Item label="电话（微信）">
             15063036525
           </Descriptions.Item>
-          <Descriptions.Item label="邮箱">578888218@qq.com</Descriptions.Item>
+          <Descriptions.Item label="邮箱">liuysh@sugon.com</Descriptions.Item>
           <Descriptions.Item label="目前公司" span={2}>
             中科曙光
           </Descriptions.Item>
