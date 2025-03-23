@@ -17,7 +17,7 @@ export class UserInfo extends React.Component {
           <Descriptions.Item label="电话（微信）">
             15063036525
           </Descriptions.Item>
-          <Descriptions.Item label="邮箱">liuysh@sugon.com</Descriptions.Item>
+          <Descriptions.Item label="邮箱">578888218@qq.com</Descriptions.Item>
           <Descriptions.Item label="目前公司" span={2}>
             中科曙光
           </Descriptions.Item>
@@ -28,12 +28,14 @@ export class UserInfo extends React.Component {
           
 
           <Descriptions.Item label="个人评价" span={3}>
-            6年以上工作经验，全栈工程师，意向岗位JAVA研发工程师、python研发工程师。
+            七年以上工作经，皮实耐糙，靠谱，全栈工程师，意向岗位架构师、JAVA研发工程师、python研发工程师。
             <br />
             符合程序员的特征属于内敛、灵活、执着，皮实，责任心强。
             <br />
-            善于学习和不断总结，喜欢具有挑战性的工作，技术博客访问量98万++。
+            善于学习和不断总结，喜欢具有挑战性的工作，技术博客访问量100万++。
             <br />
+            善于沟通协调团队成员高效完成目标，乐于帮助团队成员解决问题，共同成长。
+
             <br />
           </Descriptions.Item>
           <Descriptions.Item label="技术博客" span={3}>

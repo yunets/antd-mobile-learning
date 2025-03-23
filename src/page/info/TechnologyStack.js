@@ -67,7 +67,7 @@ export class TechnologyStack extends React.Component {
                 <br />
                 4.熟悉java中各种线程安全的锁机制AQS，死锁。
                 <br />
-                5.熟悉线上排查问题的常用方式。
+                5.熟悉线上排查问题的常用方式:Arthas、jps、jmap、jstack。
                 <br />
                 <br />
                 <Tag color="#87d068">《代码整洁之道》</Tag>

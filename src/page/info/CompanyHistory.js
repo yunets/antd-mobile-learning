@@ -6,7 +6,7 @@ export class CompanyHistory extends React.Component {
     {
       key: "1",
       school: "中科曙光",
-      qualifications: "大数据研发工程师、云计算研发工程师",
+      qualifications: "大数据研发工程师、云计算研发工程师、架构工程师",
       learningTime: "2018年7月-至今"
     },
     {
