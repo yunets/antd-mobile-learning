@@ -1,7 +1,7 @@
 import React from "react";
 import { Tabs } from "antd";
 import { Resume } from "./Resume";
-import MyParticle from "../MyParticle";
+// import MyParticle from "../MyParticle";
 export class HeaderTab extends React.Component {
   constructor(props) {
     super(props);

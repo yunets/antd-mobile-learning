@@ -3,7 +3,7 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import HeaderNav from "./page/nav/HeaderNav";
 import { HeaderTab } from "./page/nav/HeaderTab";
 import { Resume } from "./page/nav/Resume";
-import MyParticle from "./page/MyParticle";
+// import MyParticle from "./page/MyParticle";
 export default function App() {
   return (
     <div className="App">
