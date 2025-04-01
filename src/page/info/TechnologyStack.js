@@ -54,6 +54,8 @@ export class TechnologyStack extends React.Component {
                 6.熟悉云计算openstack和zstack的使用。
                 <br />
                 7.熟悉软件设计的原则，有良好的的代码编写习惯。
+                <br />
+                8.了解大模型的相关知识，并在继续学习实践。
               </div>
             </TabPane>
 

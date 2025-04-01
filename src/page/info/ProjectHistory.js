@@ -25,7 +25,7 @@ export class ProjectHistory extends React.Component {
           <List.Item>
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-              title={<a href="https://www.sccsp.cn/" target="_blank">四川省算力调度服务平台（2024.06-2024.10）</a>}
+              title={<a href="https://www.sccsp.cn/" target="_blank">四川省算力调度服务平台（2024.06-2024.10）https://www.sccsp.cn/</a>}
               description="SpringBoot、springcloud、nacos、Kubernetes、Docker、Vue"
             />
             <div>
@@ -69,7 +69,7 @@ export class ProjectHistory extends React.Component {
           <List.Item>
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-              title={<a href="https://www.scnet.cn/" target="_blank">国家超算互联网（2024.06-2024.10）</a>}
+              title={<a href="https://www.scnet.cn/" target="_blank">国家超算互联网（2024.06-2024.10）https://www.scnet.cn/</a>}
               description="SpringBoot、springcloud、nacos、Kubernetes、Docker、Vue"
             />
             <div>
@@ -103,7 +103,7 @@ export class ProjectHistory extends React.Component {
           <List.Item>
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-              title={<a href="https://cloud.sugon.com/" target="_blank">曙光云产品（2021.04-2024.06）</a>}
+              title={<a href="https://cloud.sugon.com/" target="_blank">曙光云产品（2021.04-2024.06）https://cloud.sugon.com/</a>}
               description="SpringBoot、springcloud、nacos、Kubernetes、Docker、Openstack、zstack、Vue、React"
             />
             <div>
@@ -214,7 +214,7 @@ export class ProjectHistory extends React.Component {
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title={
-                <a href>大数据与人工智能实验平台产品（2018.01-2019.07）</a>
+                <a href="https://www.sugon.com/solution/details?id=168" target="_blank">大数据与人工智能实验平台产品（2018.01-2019.07）https://www.sugon.com/solution/details?id=168</a>
               }
               description="Kubernetes、Docker、Tensorflow、Caffe、Pytorch、Hadoop、Yarn、
               Zookeeper、Hive、Spark、Elasticsearch、oozie、Nifi、SpringBoot、React、Antd"
