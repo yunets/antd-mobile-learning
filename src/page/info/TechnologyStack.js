@@ -41,7 +41,7 @@ export class TechnologyStack extends React.Component {
           >
             <TabPane tab={`技能广度`} key="0">
               <div height="1000px">
-                1.熟练使用常用的开发语言java，python、go、javascript，react和相关的框架springboot，mybatis，Springcloud，antd等。
+                1.熟练使用常用的开发语言java，python、go、javascript，react和相关的框架Springboot，mybatis，Springcloud，antd等。
                 <br />
                 2.熟悉数据库mysql、postgresql、mongodb的相关使用和原理。
                 <br />
@@ -137,7 +137,10 @@ export class TechnologyStack extends React.Component {
             </TabPane>
             <TabPane tab={`Spring生态圈`} key="5">
               <div>
-              1.待更新
+              1.熟悉Spring ioc和DI。<br />
+              2.熟悉Spring bean的生命周期、装配、作用域。<br />
+              3.熟悉Spring AOP的原理、。<br />
+              3.熟悉Spring事务、事务的隔离级别和传播属性，防止事务失效的方法。<br />
               </div>
             </TabPane>
             <TabPane tab={`方法论`} key="6">
