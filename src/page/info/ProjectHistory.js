@@ -104,7 +104,7 @@ export class ProjectHistory extends React.Component {
             <List.Item.Meta
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title={<a href="https://cloud.sugon.com/" target="_blank">曙光云产品（2021.04-2024.06）https://cloud.sugon.com/</a>}
-              description="SpringBoot、springcloud、nacos、Kubernetes、Docker、Openstack、zstack、Vue、React"
+              description="SpringBoot、springcloud、nacos、Kubernetes、Docker、Openstack、zstack、Vue、React、Golang"
             />
             <div>
               <List
