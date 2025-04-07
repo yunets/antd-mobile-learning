@@ -82,7 +82,30 @@ export class TechnologyStack extends React.Component {
                 <br />
               </div>
             </TabPane>
-            <TabPane tab={`Kubernetes`} key="2">
+            <TabPane tab={`Golang`} key="2">
+              <div height="1000px">
+                1.熟悉Golang的并发编程，goroutine、channel、select 、sync.Mutex、sync.WaitGroup、sync.Once。
+                <br />
+                2.熟悉高性能web框架 gin。
+                <br />
+                3.熟悉GORM框架和操作数据MySQL、PostgreSQL、MongoDB、达梦、瀚高、人大金仓。
+                <br />
+                4.熟悉Go操作 RabbitMQ、Redis 和 MinIO。
+                
+                <br />
+                <Tag color="#87d068">《Go语言实战》</Tag>
+                <Tag color="#87d068">《Go语言核心编程》</Tag>
+                <Tag color="#87d068">《Go语言精进之路》</Tag>
+                <Tag color="#87d068">《深入理解Go语言》</Tag>
+                <Tag color="#87d068">《Go语言高并发与微服务实战》</Tag>
+                <Tag color="#87d068">《Go语言高级编程》</Tag>
+                <Tag color="#87d068">《Go语言并发编程实战》</Tag>
+                <Tag color="#87d068">《Effective Go 》</Tag>
+                
+                <br />
+              </div>
+            </TabPane>
+            <TabPane tab={`Kubernetes`} key="3">
               <div>
                 1.熟悉Kubernetes组件和组件之间协同工作原理,并能熟练部署集群。
                 <br />
@@ -106,7 +129,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《kubernetes 进阶实战》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`Mysql`} key="3">
+            <TabPane tab={`Mysql`} key="4">
               <div>
                 1.熟悉主键索引、非主键索引、联合索引、前缀索引的原理，防止索引失效及慢查询问题排查解决索引优化。
                 <br />
@@ -126,7 +149,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《MySQL技术内幕 InnoDB存储引擎》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`Postgresql`} key="4">
+            <TabPane tab={`Postgresql`} key="5">
               <div>
                 1.待更新
                 <br />
@@ -137,7 +160,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《PostgreSQL 数据库内核分析》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`Spring生态圈`} key="5">
+            <TabPane tab={`Spring生态圈`} key="6">
               <div>
               1.熟悉Spring ioc和DI。<br />
               2.熟悉Spring bean的生命周期、装配、作用域。<br />
@@ -145,7 +168,7 @@ export class TechnologyStack extends React.Component {
               3.熟悉Spring事务、事务的隔离级别和传播属性，防止事务失效的方法。<br />
               </div>
             </TabPane>
-            <TabPane tab={`方法论`} key="6">
+            <TabPane tab={`方法论`} key="7">
               <div>
                 <Tag color="#87d068">《如何阅读一本书》</Tag>
 
