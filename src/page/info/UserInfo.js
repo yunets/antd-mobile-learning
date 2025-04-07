@@ -28,7 +28,7 @@ export class UserInfo extends React.Component {
           
 
           <Descriptions.Item label="个人评价" span={3}>
-            （1）七年以上工作经验，皮实耐糙，靠谱，全栈工程师，意向岗位架构师、JAVA研发工程师、python研发工程师。
+            （1）七年以上工作经验，皮实耐糙，靠谱，全栈工程师，意向岗位架构师、JAVA研发工程师、Golang研发工程、python研发工程师均可。
             <br />
             （2）符合程序员的特征属于内敛、灵活、执着，皮实，责任心强。
             <br />
