@@ -115,6 +115,8 @@ export class TechnologyStack extends React.Component {
                 <br />
                 3.熟悉LangChain、RAGFlow、LLamaIndex、Dify、MCP等RAG开发框架。
                 <br />
+                3.熟悉Embedding 模型text-embedding-ada-002、text-embedding-3-large、nomic-embed-text、bge-m3等。
+                <br />
                 4.熟悉ComfyUI工作流框架。
                 <br />
                 
