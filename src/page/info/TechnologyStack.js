@@ -107,7 +107,7 @@ export class TechnologyStack extends React.Component {
                 <br />
               </div>
             </TabPane>
-            <TabPane tab={`大模型应用`} key="2">
+            <TabPane tab={`大模型应用`} key="3">
               <div height="1000px">
                 1.熟悉Ollama大模型的部署，go或python开发。
                 <br />
@@ -124,7 +124,7 @@ export class TechnologyStack extends React.Component {
                 <br />
               </div>
             </TabPane>
-            <TabPane tab={`Kubernetes`} key="3">
+            <TabPane tab={`Kubernetes`} key="4">
               <div>
                 1.熟悉Kubernetes组件和组件之间协同工作原理,并能熟练部署集群。
                 <br />
@@ -148,7 +148,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《kubernetes 进阶实战》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`Mysql`} key="4">
+            <TabPane tab={`Mysql`} key="5">
               <div>
                 1.熟悉主键索引、非主键索引、联合索引、前缀索引的原理，防止索引失效及慢查询问题排查解决索引优化。
                 <br />
@@ -168,7 +168,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《MySQL技术内幕 InnoDB存储引擎》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`Postgresql`} key="5">
+            <TabPane tab={`Postgresql`} key="6">
               <div>
                 1.待更新
                 <br />
@@ -179,7 +179,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《PostgreSQL 数据库内核分析》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`Spring生态圈`} key="6">
+            <TabPane tab={`Spring生态圈`} key="7">
               <div>
               1.熟悉Spring ioc和DI。<br />
               2.熟悉Spring bean的生命周期、装配、作用域。<br />
@@ -187,7 +187,7 @@ export class TechnologyStack extends React.Component {
               3.熟悉Spring事务、事务的隔离级别和传播属性，防止事务失效的方法。<br />
               </div>
             </TabPane>
-            <TabPane tab={`方法论`} key="7">
+            <TabPane tab={`方法论`} key="8">
               <div>
                 <Tag color="#87d068">《如何阅读一本书》</Tag>
 
