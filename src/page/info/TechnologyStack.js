@@ -91,6 +91,8 @@ export class TechnologyStack extends React.Component {
                 3.熟悉GORM框架和操作数据MySQL、PostgreSQL、MongoDB、达梦、瀚高、人大金仓。
                 <br />
                 4.熟悉Go操作 RabbitMQ、Redis 和 MinIO。
+                <br />
+                5.熟悉Go WebSocket 和 SSE协议。
                 
                 <br />
                 <Tag color="#87d068">《Go语言实战》</Tag>
@@ -187,7 +189,7 @@ export class TechnologyStack extends React.Component {
                 <Tag color="#87d068">《黑天鹅》</Tag>
               </div>
             </TabPane>
-            <TabPane tab={`人物传记`} key="7">
+            {/* <TabPane tab={`人物传记`} key="7">
               <div>
                 <Tag color="#87d068">《硅谷钢铁侠》</Tag>
                 <Tag color="#87d068">
@@ -199,7 +201,7 @@ export class TechnologyStack extends React.Component {
                   </a>
                 </Tag>
               </div>
-            </TabPane>
+            </TabPane> */}
           </Tabs>
         </div>
       </div>
