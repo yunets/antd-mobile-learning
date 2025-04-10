@@ -113,7 +113,7 @@ export class TechnologyStack extends React.Component {
                 <br />
                 2.熟悉大模型的微调框架LLaMA-Factory。
                 <br />
-                3.熟悉LangChain、RAGFlow、LLamaIndex、Transformers Agents、Dify、MCP、开发框架。
+                3.熟悉LangChain、RAGFlow、LLamaIndex、Dify、MCP等RAG开发框架。
                 <br />
                 4.熟悉ComfyUI工作流框架。
                 <br />
