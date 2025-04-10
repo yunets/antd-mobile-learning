@@ -107,6 +107,23 @@ export class TechnologyStack extends React.Component {
                 <br />
               </div>
             </TabPane>
+            <TabPane tab={`大模型应用`} key="2">
+              <div height="1000px">
+                1.熟悉Ollama大模型的部署，go或python开发。
+                <br />
+                2.熟悉大模型的微调框架LLaMA-Factory。
+                <br />
+                3.熟悉LangChain、RAGFlow、LLamaIndex、Transformers Agents、Dify、MCP、开发框架。
+                <br />
+                4.熟悉ComfyUI工作流框架。
+                <br />
+                
+                <br />
+
+                
+                <br />
+              </div>
+            </TabPane>
             <TabPane tab={`Kubernetes`} key="3">
               <div>
                 1.熟悉Kubernetes组件和组件之间协同工作原理,并能熟练部署集群。
