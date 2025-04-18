@@ -10,21 +10,22 @@ import { CompanyHistory } from "../info/CompanyHistory";
 export class Resume extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { visibleResume: true };
+    this.state = { visibleResume: false };
   }
 
   componentDidMount() {
-   // this.getDetail();
+    this.getDetail();
   }
 
   getDetail = () => {
     let a = prompt("请输入查看简历密码", "");
-    if ("a" === "6525") {
+    console.log(a);
+    if (a === "6525") {
       this.setState({
         visibleResume: true
       });
     } else {
-      //alert("密码错误，请重新输入！！！");
+      alert("密码错误，请重新输入！！！");
     }
   };
 
@@ -46,7 +47,7 @@ export class Resume extends React.Component {
             onClick={() => this.getDetail()}
             style={{ float: "center" }}
           >
-            输入查看简历密码：请联系作者578888218@qq.com索要密码
+            输入查看简历密码：请联系作者15063036525索要密码
           </Button>
         )}
       </div>
